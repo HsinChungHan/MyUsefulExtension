@@ -16,8 +16,9 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HsinHanDataManager"
-  s.version      = "0.1.1"
+  s.version      = "0.1.0"
   s.summary      = "A useful extension library."
+  s.swift_version = "4.2"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -28,7 +29,7 @@ Pod::Spec.new do |s|
 It's an useful extension library.
                    DESC
 
-  s.homepage     = "https://github.com/HsinChungHan/UsefulExtension"
+  s.homepage     = "https://github.com/HsinChungHan/MyUsefulExtension"
   # s.screenshots  = "", ""
 
 
@@ -47,6 +48,7 @@ It's an useful extension library.
   #
   #  Specify the authors of the library, with email addresses. Email addresses
   #  of the authors are extracted from the SCM log. E.g. $ git log. CocoaPods also
+
   #  accepts just a name if you'd rather not provide an email address.
   #
   #  Specify a social_media_url where others can refer to, for example a twitter
@@ -80,7 +82,7 @@ It's an useful extension library.
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/HsinChungHan/UsefulExtension.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/HsinChungHan/MyUsefulExtension.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +93,7 @@ It's an useful extension library.
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = 'UsefulExtension/*.{swift,plist}'
+  s.source_files  = "UsefulExtension/Utilities/*.{swift}"
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
