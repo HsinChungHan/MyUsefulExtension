@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HsinHanDataManager"
-  s.version      = "0.1.0"
+  s.version      = "0.1.2"
   s.summary      = "A useful extension library."
   s.swift_version = "4.2"
 
